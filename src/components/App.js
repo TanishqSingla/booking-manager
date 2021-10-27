@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
 import '../App.css';
 
 import { FaCalendarAlt, FaDoorOpen, FaUsers } from 'react-icons/fa'
+import BookablesPage from './Bookables/BookablesPage';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
 
         <Switch>
           <Route path="/bookings" element={""} />
-          <Route path="/bookables" element={""} />
+          <Route path="/bookables" element={<BookablesPage />} render={BookablesPage} />
           <Route path="/users" element={""} />
         </Switch>
       </div>
