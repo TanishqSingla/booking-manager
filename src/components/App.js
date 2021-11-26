@@ -3,6 +3,7 @@ import '../App.css';
 
 import { FaCalendarAlt, FaDoorOpen, FaUsers } from 'react-icons/fa'
 import BookablesPage from './Bookables/BookablesPage';
+import UserPicker from './Users/UserPicker';
 
 function App() {
   return (
